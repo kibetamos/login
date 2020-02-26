@@ -1,0 +1,42 @@
+h1,li{
+	text-align:center;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+.nav a.active {
+  background-color: white;
+  color: #454;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: white;
+  }
+  */
+}

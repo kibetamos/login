@@ -1,0 +1,16 @@
+p {
+  font-family: Arial;
+}
+h1{
+	color:teal
+}
+.title{
+	color:teal;
+}
+#article-title{
+font-family: cursive;
+  text-transform: capitalize;
+}
+h1,li{
+	text-align:center;
+}
